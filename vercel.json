@@ -8,7 +8,7 @@
   "routes": [
     {
       "src": "/api/quiz",
-      "dest": "api/quiz.js"
+      "dest": "/api/quiz.js"
     }
   ]
 }
