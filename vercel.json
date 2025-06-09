@@ -2,13 +2,13 @@
   "version": 2,
   "functions": {
     "api/quiz.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "edge"
     }
   },
   "routes": [
     {
       "src": "/api/quiz",
-      "dest": "/api/quiz.js"
+      "dest": "api/quiz.js"
     }
   ]
 }
